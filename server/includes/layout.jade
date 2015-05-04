@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		title MultiVision 
+		link(href="/vendor/icon.png", rel="shortcut icon", type="image/x-icon")
+		link(rel="stylesheet", href="/vendor/bootstrap-3.3.4-dist/css/bootstrap.css")
+		link(rel="stylesheet", href="/vendor/toastr/toastr.css")
+		link(rel="stylesheet", href="/vendor/css/site.css")
+		
+body(ng-app = 'app')
+	include currentUser
+	block main-content 
+	include scripts 
